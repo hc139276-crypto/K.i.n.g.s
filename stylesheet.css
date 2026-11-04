@@ -1,18 +1,24 @@
 .gold{ background-color: #eeeadf;}
+.tgold{color: #B4915B;}
+
+.browsing-page {color: #B4915B;
+/* #DBB77D another color hover*/}
 
 .nav-height{ height: 50px;}
+
+.mt-300{margin-top: 300px;}
+.mt-100{margin-top: 100px;}
 
 .mt-50{margin-top: 50px;}
 .mt-25{margin-top: 25px;}
 .mt-10{margin-top: 10px;}
 
+.pl-130{padding-left: 130px;}
+.pr-130{padding-right: 130px;}
 
 
 
 .mb-100{margin-bottom: 100px;}
-
-
-
 
 .brightness{opacity: 0.7;}
 
@@ -46,8 +52,94 @@ position: absolute;
 
     z-index: -1;
     opacity: 0.5;
-    top: 40px;
+    top: 40px;}
+    
+.wallpeaper-two{
+    background-image: url("./renovation INC/pics/paint.jpg"); 
+    background-size: cover;
+    position: absolute;
 
-    
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
 }
-    
+
+.wallpeaper-three{
+    background-image: url("./renovation INC/pics/drywall\ design.jpg"); 
+    background-size: cover;
+    position: absolute;
+
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
+}
+
+.wallpeaper-four{
+    background-image: url("./renovation inc/pics/carpentry\ and\ woodworking1.jpg"); 
+    background-size: cover;
+    position: absolute;
+
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: 25%;
+    width: 100%;
+
+    z-index: -1;
+    top:70px;
+}
+
+
+details summary {
+    list-style: none;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+.side-text {
+    position: sticky;
+    top: 250px;
+    margin-top: 20px;
+}
+
+a{ list-style: none;
+text-decoration: none;
+color: black;}
+
+/* for completed projects */
+.long { height: 400px;
+width: 300px;}
+
+/* for how we work */
+.longg{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+/* for <a> */
+.border-s{ 
+    border-color: #B4915B;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 15px;
+
+    padding-top: 5px;
+}
+
+/* for pic how we work */
+.border-b {
+    border-color: black
+    border-width: 1px;
+    border-style: solid;
+}
